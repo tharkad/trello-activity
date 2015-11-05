@@ -1,0 +1,193 @@
+@CHARSET "UTF-8";
+
+body {
+font-family: "helvetica neue", helvetica, "lucinda sans unicode", "sans serif";
+font-weight: normal;
+color: #333;
+padding: 0;
+border: 0;
+margin-left: 10px;
+}
+
+table, th, td
+{
+	border: 2px solid #888;
+}
+
+section {
+	margin:20px 0 0 20px;
+}
+
+table {
+	width:95%;
+	border-collapse:collapse;
+}
+
+.timeSince
+{
+	border: 0px solid #888;
+	font-size: 14px;
+}
+
+.cancel
+{
+	color: #F7DCE5;
+}
+
+table.timestampTable, th.timestampTable, td.timestampTable
+{
+	border: 0px solid #888;
+	font-size: 14px;
+}
+
+td.timestampTable {
+	padding-left: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 5px;
+}
+
+th.timestampTable
+{
+	text-align: right;
+}
+
+tr.running {
+	background-color: #CCCCF5;
+}
+
+tr.failed {
+	background-color: #FFBFBF;
+}
+
+tr.succeeded {
+	background-color: #BFFFBF;
+}
+
+thead {
+	line-height: 30px;
+}
+
+thead th {
+	background: #53777a;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align:center;
+}
+
+td {
+	font-size: 14px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+.even {
+	background-color: #c8f8f8;
+}
+
+.pagelink {
+	font-size: 22px;
+}
+
+span.timestamp {
+	font-weight: bold;	
+}
+
+nav {
+	margin:15px 0 10px 0;
+}
+
+nav.dataItems {
+	margin:0px 0 0px 0;
+	line-height: 1.2;
+}
+
+.dataItemsSmall {
+	margin:0px 0 0px 0;
+	font-size: 11px;
+}
+
+nav a {
+	background: #53777a;
+	color: #fff;
+	width: 80px;
+	text-decoration: none;
+	border: 1px solid #5b5b5b;
+	font-size: 14px;
+	text-align: center;
+	padding: 5px 10px;
+}
+
+nav.loading {
+	text-decoration: none;
+	border: 1px solid #5b5b5b;
+	font-size: 14px;
+	text-align: center;
+	padding: 5px 10px;
+}
+
+nav.journalEntries {
+	overflow: auto;
+	font-size: 11px;
+	height: 80px;
+	margin-right: 10px;
+	padding: 2px 2px;
+	border: 1px solid LightGray;
+	background-color: white;
+}
+
+label {
+	display: block;
+	padding: 8px 0 8px 0;
+	color: #333;
+}
+
+input {
+	border-radius: 3px;
+	height: 24px;
+	border: 1px solid #AAA;
+	padding: 0 7px;
+}
+
+input.large {
+	width: 400px;
+}
+
+select {
+	border: 1px solid #AAA;
+	overflow: hidden;
+	margin-right: 15px;
+	width: 200px;
+}
+
+.required {
+	color: red;
+}
+
+.not {
+	display:none;	
+}
+
+.rowHighlight {
+	font-weight:bold;
+} 
+
+label.error {
+	color: red;
+            font-weight:bold;
+}
+
+.overdue {
+	background: #F7DCE5;
+}
+
+.warning {
+	background: #F7F7DC;
+}
+
+.taskCompleted {
+	text-decoration: line-through;
+}
